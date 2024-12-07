@@ -1,0 +1,108 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: beige;
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-container {
+    display: flex;
+    border-color: aquamarine;
+    background-color: white;
+    width: 60%;
+    height: 1000px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(238, 14, 148);
+}
+
+.left-section {
+    background-color: black;
+    color: white;
+    padding: 100px;
+    width: 20%;
+    text-align: center;
+    /* border-right: 5px solid #e63946; */
+
+    
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    margin-top: 10%;
+    margin-bottom: 100px;
+}
+
+
+h1{
+    font-size: 25px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+    word-wrap: normal;
+}
+h3 {
+    font-size: 18px;
+    font: italic;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(238, 14, 148);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul li{
+    margin: 5px;
+}
+
+.right-section{
+    /* background-image: url(https://wallpapers.com/images/hd/light-color-background-u5ajon1xr9puabyq.jpg);
+    background-size: cover; */
+    background-color: rgb(218, 216, 216);
+   padding: 20px;
+   width: 65%;
+}
+
+#objective {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+#certification {
+    margin-top: 50px;
+}
+
+
+button {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: cadetblue;
+}
+
+
+@media (max-width: 768px) {
+    .resume-container {
+        flex-direction: column;
+        width: 90%;
+    }
+    .left-section, .right-section {
+        width: 100%;
+        padding: 20px;
+    }
+    .profile-picture {
+        width: 150px;
+        height: 150px;
+    }
+}
